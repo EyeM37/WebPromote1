@@ -396,7 +396,14 @@ export default function Home() {
         <img src={data.home[0].image_url} alt="cover1" className="coverImage" />
         <div className="store">
           <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
-            <img src="/Photo/appstore.jpg" alt="appstore" className="storeImage" />
+            <img 
+              src="/Photo/appstore.jpg" 
+              alt="appstore" 
+              className="storeImage" 
+              style={{ transition: 'transform 0.3s', cursor: 'pointer' }} 
+              onMouseEnter={(e) => e.target.style.transform = 'scale(1.1)'} 
+              onMouseLeave={(e) => e.target.style.transform = 'scale(1)'} 
+            />
           </a>
           <div className="phones-container">
             <div className="phone-frame1">
@@ -409,7 +416,14 @@ export default function Home() {
             </div>
           </div>
           <a href="https://play.google.com/store/" target="_blank" rel="noopener noreferrer">
-            <img src="/Photo/playstore.jpg" alt="playstore" className="storeImage" style={{ marginLeft: '6%' }} />
+            <img 
+              src="/Photo/playstore.jpg" 
+              alt="playstore" 
+              className="storeImage" 
+              style={{ marginLeft: '6%', transition: 'transform 0.3s', cursor: 'pointer' }} 
+              onMouseEnter={(e) => e.target.style.transform = 'scale(1.1)'} 
+              onMouseLeave={(e) => e.target.style.transform = 'scale(1)'} 
+            />
           </a>
         </div>
 
