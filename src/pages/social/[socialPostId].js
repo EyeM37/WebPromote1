@@ -656,37 +656,17 @@ export default function SocialShare() {
         )}
       </div>
 
-      <div style={{
-        position: 'fixed',
-        right: 24,
-        bottom: 24,
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 12,
-        zIndex: 1000,
+      <div className="download-buttons" style={{
         animation: isShaking ? 'shake 0.5s ease-in-out' : 'none'
       }}>
         <a 
           href="https://play.google.com/store/" 
           target="_blank" 
           rel="noopener noreferrer"
-          style={{
-            transition: 'transform 0.2s ease-in-out',
-            ':hover': {
-              transform: 'scale(1.05)'
-            }
-          }}
         >
           <img 
             src="/Photo/playstore.jpg" 
             alt="Get it on Google Play" 
-            style={{
-              height: 48,
-              borderRadius: 8,
-              boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
-              display: 'block',
-              transition: 'transform 0.2s ease-in-out',
-            }}
             onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
             onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
           />
@@ -695,23 +675,10 @@ export default function SocialShare() {
           href="https://www.apple.com/app-store/" 
           target="_blank" 
           rel="noopener noreferrer"
-          style={{
-            transition: 'transform 0.2s ease-in-out',
-            ':hover': {
-              transform: 'scale(1.05)'
-            }
-          }}
         >
           <img 
             src="/Photo/appstore.jpg" 
             alt="Download on the App Store" 
-            style={{
-              height: 48,
-              borderRadius: 8,
-              boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
-              display: 'block',
-              transition: 'transform 0.2s ease-in-out',
-            }}
             onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
             onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
           />

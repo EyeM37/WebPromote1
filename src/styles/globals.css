@@ -1167,3 +1167,48 @@ footer {
     margin-top: 3vh;
   }
 }
+
+.download-buttons {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 1000;
+}
+
+.download-buttons a {
+  transition: transform 0.2s ease-in-out;
+}
+
+.download-buttons img {
+  height: 48px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+  .download-buttons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 12px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .download-buttons img {
+    height: 40px;
+  }
+
+  /* Add padding to body to prevent content from being hidden behind the download bar */
+  body {
+    padding-bottom: 64px;
+  }
+}
