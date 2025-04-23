@@ -631,10 +631,10 @@ export default function Home() {
 
       <footer className="footer">
         <div style={{ height: '60%', display: 'flex', justifyContent: 'center' }}>
-          <a href={data.contact[1].url} target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
             <img src="./Photo/fbfooter.png" alt="Facebook" style={{ width: '30px', margin: '0 5px' }} />
           </a>
-          <a href={data.contact[0].url} target="_blank" rel="noopener noreferrer">
+          <a href="https://www.line.me/" target="_blank" rel="noopener noreferrer">
             <img src="./Photo/linefooter.png" alt="Line" style={{ width: '30px', margin: '0 5px' }} />
           </a>
         </div>
