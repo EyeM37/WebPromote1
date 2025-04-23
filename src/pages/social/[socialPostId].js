@@ -227,7 +227,7 @@ export default function SocialShare() {
                 style={{ width: '50px', height: '50px', borderRadius: '50%', marginRight: '10px' }}
               />
               <div>
-                <h3>{shareData.model.firstName}</h3>
+                <h3 style={{ margin: 0 }}>{shareData.model.firstName}</h3>
                 <small>{formatDate(shareData.model.updatedAt)}</small>
               </div>
             </div>
