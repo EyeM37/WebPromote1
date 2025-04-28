@@ -5,6 +5,8 @@ import 'aos/dist/aos.css';
 import { v4 as uuidv4 } from 'uuid';
 import Swal from 'sweetalert2';
 import Loading from '../component/Loading';
+import Head from 'next/head';
+import { Main } from 'next/document';
 
 export default function Home() {
   const [activeMenu, setActiveMenu] = useState('home');
@@ -348,6 +350,25 @@ export default function Home() {
   }
 
   return (
+    <>
+    <Head>
+        <title>Mefarm</title>
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://mefarm-web-dev.canadev.net/" />
+        <meta property="og:title" content="เปลี่ยนเกมให้กลายเป็นเรื่องจริงกับMefarm" />
+        <meta property="og:description" content="แรงบันดาลใจที่มาจากเกมปลูกผัก พัฒนามาเพื่อให้ตอบโจทย์คนยุคใหม่ ลงทุนไม่มาก ไม่ต้องมีที่ดิน ไม่ต้องมีความรู้ ไม่มีเวลาก็สามารถทำได้" />
+        <meta property="og:image" content="/Photo/image.png" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://mefarm-web-dev.canadev.net/" />
+        <meta name="twitter:title" content="เปลี่ยนเกมให้กลายเป็นเรื่องจริงกับMefarm" />
+        <meta name="twitter:description" content="แรงบันดาลใจที่มาจากเกมปลูกผัก พัฒนามาเพื่อให้ตอบโจทย์คนยุคใหม่ ลงทุนไม่มาก ไม่ต้องมีที่ดิน ไม่ต้องมีความรู้ ไม่มีเวลาก็สามารถทำได้" />
+        <meta name="twitter:image" content="/Photo/image.png" />
+      </Head>
+    <main>
     <div className="container" style={{ fontFamily: 'FcMinimal, sans-serif' }}>
      <nav className="navbar">
         <div style={{ display: 'flex',alignItems: 'center' }}>
@@ -641,5 +662,7 @@ export default function Home() {
         <p style={{ color: 'black' }}>© All Rights Reserved by Mefarm</p>
       </footer>
     </div>
+    </main>
+    </>
   );
 }

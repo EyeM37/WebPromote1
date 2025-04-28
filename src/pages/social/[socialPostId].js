@@ -185,7 +185,6 @@ export default function SocialShare() {
             <img src="/Photo/logo.jpg" alt="logo" className="logo" style={{ width: "50px", marginRight: "5px" }} />
             Mefarm
           </a>
-         
         </div>
 
         <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={(e) => {
