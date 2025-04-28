@@ -1,0 +1,132 @@
+{
+  "home": [{
+    "type": "cover",
+    "image_url": "/Photo/cover1.jpg",
+    "description": null
+  },
+  {
+    "type": "phone",
+    "phone": [
+      {
+        "image_url": "/Photo/slide2.png",
+        "description": null
+      },
+      {
+        "image_url": "/Photo/coverphone1.png",
+        "description": null
+      }
+    ]
+  },
+  {
+    "type": "title",
+    "title":[
+      {
+        "image_url": "/Photo/logo.jpg",
+        "description": "เปลี่ยนเกมให้กลายเป็นเรื่องจริงกับ Mefarm"
+      },
+      {
+        "image_url": "/Photo/title2.jpg",
+        "description": "\" เกษตรง่ายนิดเดียว เพียงปลายนิ้วสัมผัส \""
+      },
+      {
+        "image_url": null,
+        "description": "แรงบันดาลใจที่มาจากเกมปลูกผัก พัฒนามาเพื่อให้ตอบโจทย์คนยุคใหม่ \nลงทุนไม่มาก ไม่ต้องมีที่ดิน ไม่ต้องมีความรู้  ไม่มีเวลาก็สามารถทำได้"
+      }
+    ]
+    
+  },
+  {
+      "type": "slides",
+      "slides": [
+        {
+          "image_url": "/Photo/plant.png",
+          "description": "ระบบดูแลพืชผลตลอด 24 ชั่วโมง พร้อมกล้องให้สามารถดูผ่านแอปพลิเคชันได้ตลอดเวลา มีการนำเทคโนโลยี IoT เข้ามาช่วยในการจัดการ"
+        },
+        {
+          "image_url": "/Photo/slide2.png",
+          "description": "เลือกเองได้ต้องการปลูกพืชอะไร และเราจะช่วยคำนวณว่าพืชนั้นจะต้องการอะไรบ้าง และจ้งเตือนให้ทราบเมื่อพืชนั้นต้องการน้ำ"
+        },
+        {
+          "image_url": "/Photo/slide3.jpg",
+          "description": "เกษตรกรรมเป็นอาชีพที่มีความสำคัญต่อชีวิตของมนุษย์"
+        }
+      ]
+  }
+],
+    
+
+  "concept": [{
+    "type": "cover",
+    "cover": [
+      {
+        "image_url": "/Photo/conceptcover1.jpg",
+        "description": "\"เกษตรง่ายนิดเดียว เพียงปลายนิ้วสัมผัส\""
+      },
+      {
+        "image_url": "/Photo/cover2.jpg",
+        "description": "ไม่มีที่เพาะปลูก หรือมีที่เปล่าไม่ได้ใช้งาน \nจะไม่มีปัญหาอีกต่อไป เพียงร่วมมือกับเรา"
+      }
+    ]
+    },
+    {
+      "type": "phone",
+      "phone": [
+        {
+          "image_url": "/Photo/phone1.png",
+          "description": "มีคอมมูนิตี้ให้แชร์ข่าวสาร"
+        },
+        {
+          "image_url": "/Photo/phone2.png",
+          "description": "มีแพ็คเกจให้เลือกมากมาย"
+        },
+        {
+          "image_url": "/Photo/phone3.png",
+          "description": "แนวคิดการเพาะปลูกที่ไม่จำเป็นต้องลงมือทำด้วยตัวเองให้เหนื่อย \n เสมือนกับการเล่นเกมปลูกผัก \nขับเคลื่อนด้วยเทคโนโลยี IoT สามารถตรวจสอบ เข้าถึงการดูแลผลผลิตได้ผ่านแอปพลิเคชัน"
+        },
+        {
+          "image_url": "/Photo/phone4.png",
+          "description": "เลือกปลูกแปลงไหน ที่ไหน พืชอะไรก็ได้ตามใจต้องการ"
+        },
+        {
+          "image_url": "/Photo/phone5.png",
+          "description": "ดูแล จัดการต้นไม้ และพืชผล รวมถึงติดตามสถานะการดำเนินการได้ง่ายๆ เพียงปลายนิ้วสัมผัส"
+        }
+      ]
+    }
+  ],
+  
+  "contact": [{
+        "type": "Facebook",
+        "description": "Mefarm",
+        "url": "https://www.facebook.com/",
+        "image_url": "/Photo/fb.png"
+      },
+      {
+        "type": "Line",
+        "description": "Mefarm",
+        "url": "https://line.me/",
+        "image_url": "/Photo/line.png"
+      },
+      {
+        "type": "Email",
+        "description": "Mefarm@gmail.com",
+        "url": "mailto:contact@example.com",
+        "image_url": "/Photo/email.png"
+      },
+      {
+        "type": "tel",
+        "description": "1234567890",
+        "url": "tel:+1234567890",
+        "image_url": "/Photo/phone.png"
+      }
+    ],
+
+    "footer":  [
+      {
+        "image_url": "/Photo/fbfooter.png"
+      },
+      {
+        "image_url": "/Photo/linefooter.png"
+      }
+  ]    
+}
